@@ -1,17 +1,151 @@
-# Student Dashboard & Course Management System
+# Course Management System
 
-This project is a Java Servlet-based web application that provides features for student course registration, file-based storage, and dynamic web interface. It mimics a real-world academic portal with modules like:
+A **Course Management System** built using **Java Servlets** that allows administrators to manage course information easily.
+The system provides features to add, edit, delete, and manage courses along with file/image uploads.
 
-- 📚 Course registration
-- 🧾 File upload & data persistence
-- 🧠 Modular structure (Servlets, Services, Models)
-- 🌐 Clean UI with web technologies (HTML, CSS, JS)
+This project demonstrates the use of **Java web technologies, CRUD operations, and basic course management functionalities** for educational institutions.
 
-## How to Run
-1. Clone this repo
-2. Deploy on Apache Tomcat server
-3. Access via browser (e.g., `http://localhost:8080/ilhamnn`)
+---
 
-## Technologies Used
-- Java Servlets
-- HTML, CSS, JavaScript
+# 🚀 Features
+
+* Add new courses
+* Edit course details
+* Delete courses
+* View course list
+* Upload course images/files
+* Manage course data efficiently
+
+---
+
+# 🛠️ Tech Stack
+
+* **Java**
+* **Java Servlets**
+* **JSP**
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **MySQL (Database)**
+* **Apache Tomcat Server**
+
+---
+
+# ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ilhamn3/Course-management-system.git
+```
+
+### 2. Open project
+
+Open the project in:
+
+* IntelliJ IDEA
+* Eclipse
+* NetBeans
+
+### 3. Setup Server
+
+Install and configure:
+
+```
+Apache Tomcat
+```
+
+### 4. Setup Database
+
+Create database in MySQL:
+
+```
+course_management
+```
+
+Import the SQL file if available.
+
+### 5. Run the project
+
+Deploy the project in Tomcat and open:
+
+```
+http://localhost:8080/course-management-system
+```
+
+---
+
+# 📂 Project Structure
+
+```
+Course-management-system
+│
+├── src
+│   └── main
+│       └── java
+│           └── com
+│               └── course
+│                   ├── controller
+│                   │   ├── AddCourseServlet.java
+│                   │   ├── UpdateCourseServlet.java
+│                   │   └── DeleteCourseServlet.java
+│                   │
+│                   ├── model
+│                   │   └── Course.java
+│                   │
+│                   └── dao
+│                       └── CourseDAO.java
+│
+├── webapp
+│   ├── css
+│   │   └── style.css
+│   │
+│   ├── js
+│   │   └── script.js
+│   │
+│   ├── images
+│   │
+│   ├── add-course.jsp
+│   ├── edit-course.jsp
+│   ├── view-courses.jsp
+│   └── index.jsp
+│
+├── database
+│   └── course_management.sql
+│
+├── lib
+│   └── mysql-connector.jar
+│
+└── README.md
+```
+
+---
+
+# 🧠 Concepts Used
+
+* Object Oriented Programming (OOP)
+* MVC Architecture
+* Java Servlets
+* JSP Pages
+* CRUD Operations
+* Database Connectivity (JDBC)
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Submit a pull request
+
+---
+
+# 👨‍💻 Author
+
+**Mohamed Ilham**
+
+GitHub:
+https://github.com/ilhamn3
